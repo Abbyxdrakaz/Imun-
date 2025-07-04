@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome IMUN</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('FOTO-IMUN.jpg') no-repeat center center/cover;
+      color: white;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .navbar .left {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .navbar .right a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+
+    .navbar .right .join {
+      background-color: #007BFF;
+      padding: 8px 15px;
+      border-radius: 5px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .center-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0,0,0,0.5);
+      padding: 40px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 500px;
+      width: 80%;
+    }
+
+    .center-box h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .center-box p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <div class="left">Imun Roleplayer</div>
+    <div class="right">
+      <a href="#about">About Us</a>
+      <a href="#about">About</a>
+      <a href="#carees">Carees</a>
+      <a href="#portofolio">Portofolio</a>
+      <a href="#events">Events</a>
+      <a href="#join" class="join">Join Us</a>
+    </div>
+  </div>
+
+  <div class="center-box">
+    <h1>HI, FUTURE LEADER! IMUN'S HERE.</h1>
+    <p>WE ROCK THE WORLD</p>
+  </div>
+
+</body>
+</html>
